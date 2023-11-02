@@ -2,7 +2,7 @@
 
 ### Install
 
-`npm i<span> </span>@types/goby`
+npm i types-goby
 
 License
 

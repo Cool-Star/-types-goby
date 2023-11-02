@@ -1,6 +1,7 @@
 {
-  "name": "@types/goby",
-  "version": "2.6.8",
+  "name": "types-goby",
+  "version": "0.0.2",
+  "author": "xiaoxing<281852411@qq.com>",
   "description": "TypeScript definitions for goby",
   "homepage": "https://github.com/Cool-Star/-types-goby",
   "license": "MIT",
@@ -16,10 +17,14 @@
   "repository": {
       "type": "git",
       "url": "https://github.com/Cool-Star/-types-goby.git",
-      "directory": "types/node-fetch"
+      "directory": "types/goby"
   },
   "scripts": {},
   "dependencies": {
   },
-  "typeScriptVersion": "4.5"
+  "typeScriptVersion": "4.5",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
